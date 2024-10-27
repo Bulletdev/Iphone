@@ -1,0 +1,43 @@
++--------------------+
+| Interface          |
+| ReprodutorMusical  |
++--------------------+
+| +tocar(): void     |
+| +pausar(): void    |
+| +selecionarMusica(musica: String): void |
++--------------------+
+
++--------------------+
+| Interface          |
+| AparelhoTelefonico |
++--------------------+
+| +ligar(numero: String): void |
+| +atender(): void   |
+| +iniciarConferencia(numeros: String[]): void |
++--------------------+
+
++--------------------+
+| Interface          |
+| NavegadorInternet  |
++--------------------+
+| +abrirPagina(url: String): void |
+| +atualizarPagina(): void |
+| +exibirHistorico(): void |
++--------------------+
+
++--------------------+
+| Classe iPhone      |
++--------------------+
+| -historico: List<String> |
+| -musicaAtual: String     |
++--------------------+
+| +tocar(): void     |
+| +pausar(): void    |
+| +selecionarMusica(musica: String): void |
+| +ligar(numero: String): void |
+| +atender(): void   |
+| +iniciarConferencia(numeros: String[]): void |
+| +abrirPagina(url: String): void |
+| +atualizarPagina(): void |
+| +exibirHistorico(): void |
++--------------------+
